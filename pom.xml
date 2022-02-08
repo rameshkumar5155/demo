@@ -3,6 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>in.javahome</groupId>
   <artifactId>dockeransible</artifactId>
+ 
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>dockeransible Maven Webapp</name>
@@ -12,6 +13,11 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
+      
+      <plugin>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.0.0</version>
+</plugin
       <scope>test</scope>
     </dependency>
   </dependencies>
